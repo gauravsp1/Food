@@ -15,7 +15,7 @@ function Footer() {
             <li><a href="#"><img src="./images/twitter.png"/></a></li>
         </ul>
 
-        <p>© 2020 Omnifood, Inc. All rights reserved.</p>
+        <p>© 2020 Salad-Bar, Inc. All rights reserved.</p>
     </div>
 }
 
