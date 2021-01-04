@@ -1,11 +1,4 @@
 
-
-
-
-
-
-/* ******************************************* */
-
 html {
     scroll-behavior: smooth;
 }
@@ -191,7 +184,6 @@ header{
     margin: 0;
     height: 315.8px;
     width: 315.8px;
-    
     overflow: hidden;
     background-color: #000;
 }
@@ -208,7 +200,6 @@ header{
     transform: scale(1);
     opacity: 1;
     filter: blur(0px);
-    cursor: pointer;
     
 }
 .overlay{
