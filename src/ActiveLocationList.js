@@ -9,7 +9,7 @@ const ActiveLocationList=[
         key:1
     },
     {
-        source:"./images/pune.jpg",
+        source:"./images/Pune.jpg",
         title:"PUNE",
         eater:"1200+ Happy Eaters",
         star:"4.6",
