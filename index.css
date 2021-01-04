@@ -102,7 +102,7 @@ header{
 
 .feature h2{
     word-spacing: 5px;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
 }
 .feature h2::after{
     display: block;
