@@ -6,7 +6,7 @@ function Location(){
 
     
     return <>
-     <div className="location">
+     <div id="location" className="location">
         <h2>OUR CURRENT LOCATIONS</h2>
     </div>
     <div className="activeLocation">

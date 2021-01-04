@@ -3,7 +3,7 @@ import PlanBoxList from "../PlanBoxList";
 import PlanContainer from "./PlanContainer"
 
 function Plan() {
-    return <div className="plan">
+    return <div id="plan" className="plan">
         <div className="planTitle">
         <h2>CHOOSE YOUR MEAL PLAN TODAY</h2>
         </div>

@@ -28,7 +28,7 @@ function App() {
        />
     })}
     </div>
-    <div className="MenuImagesContainer">
+    <div id="menu" className="MenuImagesContainer">
     {ImageDetail.map(item=>{
        return <MenuImages
        key={item.key}

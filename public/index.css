@@ -41,6 +41,7 @@ header{
     height: 100px;
     margin-left: 50px;
     margin-top: 10px;
+    z-index: 5;
 }
 .navList{
     display: flex;
@@ -48,7 +49,7 @@ header{
     right: 10px;
     cursor: pointer;
 }
-.navItem{
+.navItem {
     text-decoration: none;
     list-style: none;
     margin: 25px;
@@ -58,9 +59,15 @@ header{
     color: #fff;
     font-size: 90%;
 }
+.navItem a{
+    text-decoration: none;
+    color: #fff;
+}
 .navItem:hover{
     border-bottom: 2px solid #e67e22;
 }
+
+
 .tagLine h1{
     color: #fff;
     word-spacing: 5px;
@@ -382,6 +389,12 @@ margin-bottom: 25px;
     border-radius: 25px;
     cursor: pointer;
     margin-top: 20px;
+    border: none;
+    outline:none;
+
+}
+.boxBottom button:hover{
+    box-shadow: 0px 0px 5px black;
 
 }
 
@@ -508,7 +521,15 @@ flex-direction: column;
     background-color: #e67e22 ;
     border-radius: 25px;
     cursor: pointer;
+    border: none;
+    outline:none;
+
 }
+.contactButton:hover{
+    box-shadow: 0px 0px 5px black;
+
+}
+
 
 
 .footer{
@@ -548,7 +569,11 @@ flex-direction: column;
     top: 16px;
     right: 30px;
 }
+.footer-icon li a img:hover{
+    box-shadow: 0px 0px 20px black;
+    border-radius: 50%;
 
+}
 .footer-icon li a img{
     height: 30px;
     width: 30px;
