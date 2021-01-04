@@ -33,6 +33,7 @@ function App() {
        return <MenuImages
        key={item.key}
        source={item.source}
+       name={item.name}
        
        />
     })}
