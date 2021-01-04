@@ -10,7 +10,7 @@ const ActiveLocationList=[
     },
     {
         source:"./images/Pune.jpg",
-        title:"PUNE",
+        title:"PUNEY",
         eater:"1200+ Happy Eaters",
         star:"4.6",
         tag:"@saladbar_pu",
