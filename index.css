@@ -1,4 +1,11 @@
 
+
+
+
+
+
+/* ******************************************* */
+
 html {
     scroll-behavior: smooth;
 }
@@ -36,6 +43,8 @@ header{
     /* filter: blur(.51px); */
 }
 
+
+
 .navImg{
     border-radius: 50%;
     height: 100px;
@@ -43,12 +52,22 @@ header{
     margin-top: 10px;
     z-index: 5;
 }
+@media all and (max-width: 810px) {
+    .navImg{
+        height: 50px;
+        margin-left: 10px;
+       
+    }
+}
+
 .navList{
     display: flex;
     position: absolute;
     right: 10px;
     cursor: pointer;
 }
+
+
 .navItem {
     text-decoration: none;
     list-style: none;
@@ -59,6 +78,14 @@ header{
     color: #fff;
     font-size: 90%;
 }
+@media all and (max-width: 810px) {
+    .navItem{
+        font-size: 40%;
+        margin: 10px;
+       
+    }
+}
+
 .navItem a{
     text-decoration: none;
     color: #fff;
@@ -77,6 +104,16 @@ header{
     font-family: 'Lato', sans-serif;
     text-shadow: 2px 2px  black;
 }
+@media all and (max-width: 810px) {
+    .tagLine h1{
+        font-size: 100%;
+        word-spacing: 0px;
+    letter-spacing: 0px;
+   
+       
+    }
+}
+
 
 .head1{
     position: absolute;
@@ -87,6 +124,16 @@ header{
     position: absolute;
     top: 258px;
     right: 24px;
+}
+
+@media all and (max-width: 810px) {
+    .head1{
+        right: 27px;
+        width: 320px;    
+    }
+    .head2{
+        width: 320px;     
+    }
 }
 
 /* Features */
@@ -212,7 +259,7 @@ header{
 .activeLocation{
     display: flex;
     flex-wrap: wrap;
-    height: 410px;
+    height: 100%;
 }
 
 .activeLocationItem{
@@ -259,7 +306,7 @@ header{
 
 .customerContainer{
     width: 100%;
-    height: 509px;
+    height: 100%;
     position: relative;
     color: #fff;
 }
@@ -269,7 +316,7 @@ header{
     position: absolute;
     top: 0;
     left: 0;
-    height: 509px;
+    height: 100%;
     width: 100%;
     background-image:linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.8)), url("./images/Salad9.jpg");
     background-repeat: no-repeat;
@@ -308,16 +355,22 @@ header{
 
 .customerReviewContainer{
     display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
 }
 
 .customerReview{
     text-align: left;
-    margin: 10px;
-    margin-top: 30px;
+    width: 400px;
+    padding: 10px;
+    /* margin-top: 30px; */
     word-spacing: 5px;
     letter-spacing: 1px;
     font-weight: 300;
     font-family: 'Lato', sans-serif;
+    
 }
 
 .reviewImage{
@@ -338,7 +391,7 @@ header{
 .plan{
 background-color: #f4f4f4;
 width: 100%;
-height: 600px;
+height: 100%;
 }
 
 .planTitle{
@@ -366,9 +419,9 @@ height: 600px;
 
 .planContainer{
     display: flex;
-    
+    flex-wrap: wrap;
     width: 100%;
-    height: auto;
+    height: 100%;
     align-items: center;
     justify-content: space-around;
     
@@ -379,6 +432,7 @@ height: 600px;
     height: 360px;
     width: 329px;
 background-color: white;
+margin-bottom: 75px;
 
 }
 .planBox h4{
@@ -424,7 +478,7 @@ margin-bottom: 25px;
 /* Contact */
 
 .contactContainer{
-   height: 650px;
+   height: 100%;
 }
 .contact{
     text-align: center;
@@ -453,90 +507,89 @@ margin-bottom: 25px;
 display: flex;
 position: relative;
 flex-direction: column;
+height: 100%;
 }
 .name{
-    width: 500px;
+    width: 33%;
     height: 30px;
-    position: absolute;
-    top: 0px;
-    right: 220px;
+    
+    margin-left: 8%;
+    margin-bottom: 2%;
     
 }
 .namelable{
     width: 50px;
     height: 50px;
-    position: absolute;
+    /* position: absolute; */
     top: 0px;
     left: 360px;
+    margin-left: 30%;
     
 }
 .email{
-    width: 500px;
+    width: 33%;
     height: 30px;
-    position: absolute;
+    /* position: absolute; */
     top: 60px;
     right: 220px;
-    
+    margin-left: 8.5%;
+    margin-bottom: 2%;
 }
 .emaillable{
     width: 500px;
     height: 50px;
-    position: absolute;
+    /* position: absolute; */
     top: 60px;
     left: 360px;
-    
+    margin-left: 30%;
 }
 .find-us{
     width: 100px;
     height: 30px;
-    position: absolute;
+    /* position: absolute; */
     top: 126px;
     right: 625px;
-    
+    margin-left: 2%;
+    margin-bottom: 2%;
 }
 .find-uslable{
     width: 350px;
     height: 50px;
-    position: absolute;
+    /* position: absolute; */
     top: 120px;
     left: 360px;
-    
+    margin-left: 30%;
 }
 .news{
    
-    position: absolute;
-    top: 180px;
-    right: 708px;
-    
+   
+    margin-left: 2%;
+    margin-bottom: 2%;
 }
 .newslable{
     width: 160px;
     height: 50px;
-    position: absolute;
+    /* position: absolute; */
     top: 180px;
     left: 360px;
-    
+    margin-left: 30%;
 }
 .textarea{
-    width: 500px;
+    width: 35%;
     height: 100px;
-    position: absolute;
-    top: 240px;
-    right: 220px;
+    margin-left: 33%;
+    margin-bottom: 2%;
+    
     
 }
 .textarealable{
     width: 120px;
     height: 50px;
-    position: absolute;
-    top: 270px;
-    left: 360px;
-    
+    margin-left: 30%;
 }
 .contactButton{
-    position: absolute;
-    top: 375px;
-    left: 565px;
+    margin-left: 50%;
+    margin-bottom: 5%;
     width: 120px;
     height: 50px;
     font-size: 110%;
@@ -552,7 +605,40 @@ flex-direction: column;
     box-shadow: 0px 0px 5px black;
 
 }
-
+@media all and (max-width: 500px) {
+    .namelable{
+        
+        margin-left: 0;
+    }
+    .emaillable{
+        
+        margin-left:0;
+    }
+    
+    .find-uslable{
+        
+        margin-left: 0%;
+    }
+    .find-us{
+        
+        height: 25px;
+    }
+    .newslable{
+       
+        margin-left: 0%;
+    }
+    
+    .textarea{
+        
+        margin-left: 20%;
+    }
+    .contactButton{
+        margin-left: 38%;
+        width: 69px;
+        height: 28px;
+        font-size: 68%;
+    }
+}
 
 
 .footer{
@@ -601,4 +687,51 @@ flex-direction: column;
     height: 30px;
     width: 30px;
     margin: 10px;
+}
+
+@media all and (max-width: 650px) {
+
+    .footer-nav{
+        width: 400px;
+    }
+    .footer-nav li a{
+        font-size: 75%;
+    }
+    .footer p{
+        font-size: 75%;
+    }
+    
+    .footer-icon{
+        width: 150px;
+    }
+    
+    .footer-icon li a img{
+        height: 50%;
+        width: 50%;
+       
+    }
+}
+@media all and (max-width: 500px) {
+
+    .footer-nav{
+        width: 200px;
+        left: -40px;
+    }
+    .footer-nav li a{
+        font-size: 40%;
+    }
+    .footer p{
+        font-size: 50%;
+        left: 22%;
+    }
+    
+    .footer-icon{
+        width: 100px;
+    }
+    
+    .footer-icon li a img{
+        height: 60%;
+        width: 60%;
+       
+    }
 }
